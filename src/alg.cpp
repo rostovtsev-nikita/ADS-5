@@ -49,7 +49,6 @@ post.pop_back();
 return post;
 }
 
-
 int eval(std::string post) {
   // добавьте код
 TStack<int, 20> operandsStack;
