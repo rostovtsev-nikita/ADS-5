@@ -4,12 +4,11 @@
 
 template<class T, int size>
 class TStack {
- 
- private:
+private:
 T arr[20];
 int top;
 
- public:
+public:
 TStack() : top(-1) { }
 T get() const {
 return arr[top];
